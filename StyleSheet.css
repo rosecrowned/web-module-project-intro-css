@@ -1,7 +1,8 @@
 /*Css Reset */
 * {
     box-sizing: border-box;
-
+    padding: 0;
+    margin: 0;
     max-width: 100%;
 }
 
@@ -46,35 +47,34 @@ body {
 a {
     text-align: center;
     display: inline-block;
-    padding: .5rem 1rem;
-    margin: 1rem;
-    border-radius: .5rem;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 1.25rem;
     font-size: 1rem;
-    box-sizing: border-box;
-    box-sizing: 5rem;
- 
+    width: 200px;
+    height: 75px;
+    font-size: 150%;
 
 }
 
 header{
-    display: block;
+    display: inline-block;
     padding: 20% auto;
-    margin: 10%;
-    vertical-align: middle;
+    width: 75%;
+   
 
 }
 
 header.p {
-    padding: 15px;
-    width: 70%;
-    text-align: right;
+ 
 }
 
 
 h1 { 
-    display: inline;
-    font-size: 5rem;
-    padding-top: 20%;
+    display: inline-block;
+    font-size: 3rem;
+    padding-top: 10%;
+    padding-bottom: 5%;
     text-align: center;
   
 }
@@ -92,6 +92,7 @@ h1 {
     background: #DDB9A3;
     color: white;
     padding: 2%;
+    margin: 10% 0;
 }
 
 .clip {
@@ -111,10 +112,8 @@ h1 {
 }
 
 .priority {
-    display: inline;
+
     font-weight: bold;
-    padding: 0;
-    margin: 0;
 }
 
 
@@ -130,19 +129,19 @@ footer {
 
 
 #header-img {
-    display: inline;
+    display: inline-block;
     float: left;
     border-radius: 50%;
     width: 25%;
+    margin: 0;
 
 }
 
 #footer-img {
     background-image: fill;
     display: block;
-    height: 22em;
+    height: 20em;
     width: 100%;
-    position: relative;
      
 }
 
