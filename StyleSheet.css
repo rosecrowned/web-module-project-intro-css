@@ -37,19 +37,28 @@ time, mark, audio, video {
 body {
 
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 
   
 }
 
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
  
 
 a {
-    text-align: center;
-    display: inline-block;
-    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    font-size: 1.65em;
+   
     width: 200px;
     height: 75px;
-    font-size: 150%;
+    
    
 
 }
@@ -58,26 +67,29 @@ header{
     
     float: right;
     width: 75%;
-
- 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
 }
 
 section {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     max-height: 20em;
-    margin-bottom: 25em;
-}
-
-
+    max-width: 100%;
+    margin: 3em auto;
+} 
 
 
 h1 { 
   
     font-size: 3rem;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Chelsea Market', cursive;
   
 }
 
@@ -89,6 +101,9 @@ h1 {
     
 }
 .primary {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     background: #DDB9A3;
     color: white;
     height: 10em;
@@ -127,10 +142,13 @@ footer {
 
 
 #header-img {
-    display: inline-block;
+    display: flex;
+    align-content: center ;
     float: left;
     border-radius: 50%;
-    width: 25%;
+    max-width: 25%;
+ 
+   
     margin: 0;
 
 }
@@ -146,8 +164,8 @@ footer {
 
 #plan {
    background: #FF764E; 
-   float: left;
-   margin-left: 20%;
+
+  
 }
 
 #learn {
@@ -156,5 +174,5 @@ footer {
 
 #involved {
     background: #FFCD69;
-    float: right;
-    margin-right: 20%;
+}
+   
